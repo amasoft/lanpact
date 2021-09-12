@@ -72,7 +72,7 @@ if(!user || !(await user.correctPassword(password,user.password)) ){
 console.log(user)
 const token=signToken(user._id);
 res.status(200).json({
-  status:'success',
+  status:'success from here',
   token
 });
 });
